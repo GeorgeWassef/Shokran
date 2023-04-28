@@ -456,6 +456,7 @@ nav .con .content ul li .button i {
     padding: 20px;
     box-sizing: border-box;
     box-shadow: 0px 0px 20px rgba(32, 32, 32, 0.4);
+    overflow: hidden;
 
 }
 
@@ -551,10 +552,9 @@ footer {
 
 footer .left,
 footer .right {
-    width: 40%;
-    font-size: 14px;
+    width: 35%;
+    font-size: 18px;
     font-family:'jost', sans-serif;
-    line-height: 20px;
 }
 
 footer a {
@@ -564,7 +564,7 @@ footer a {
 
 h1 {
     position: relative;
-    font-size: 32px;
+    
 }
 
 h1::before {
@@ -606,6 +606,10 @@ h1::after {
 
     .main2 .row5 {
         width: 90%;
+    }
+    footer .left , footer .right{
+        font-size: 16px;
+        width: 45%;
     }
 }
 
@@ -701,7 +705,7 @@ h1::after {
     footer .right {
         width: 100%;
         text-align: center;
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 15px;
 
     }
